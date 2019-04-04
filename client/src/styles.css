@@ -1,0 +1,83 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://pics.freeartbackgrounds.com/fullhd/Country_Fields_and_Blue_Sky_Background-196.jpg");
+  background-attachment: fixed;
+}
+
+.dayBox {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 1px;
+  background-color: white;
+}
+
+.monthBox {
+  border: 1px solid Black;
+  display: block;
+  margin: 1px;
+  text-align: center;
+  background-color: white;
+}
+
+.weekDayBox {
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  margin: 1px;
+  background-color: white;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timertext {
+  text-align: center;
+  color: white;
+}
+
+.daytext {
+  text-align: center;
+}
+
+.sizedBox {
+  width: 1065px;
+}
+
+.highlightedDate {
+  background-color: lightblue;
+}
+
+.inlinebox {
+  position: relative;
+  display: inline-block;
+  left: 65px;
+}
+
+.floatRight {
+  float: right;
+}
+
+textarea {
+  background: rgba(255, 255, 255, 0.4);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #333;
+}
